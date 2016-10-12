@@ -1,3 +1,4 @@
+/*Sticky footer setup*/
 * {
 	margin:0;
 }
@@ -16,13 +17,29 @@ html, body {
 	display: block;
 }
 
-.jumbotron{
+/*Background images for jumbotrons on different pages*/
+.index-jumbotron{
 	background: url(../images/IMG_1518.png);
 	background-size: cover;
 	padding-top: 225px;
 	padding-bottom: 225px;
 }
 
+.contact-jumbotron{
+	background: url(../images/IMG_8606.png);
+	background-size: cover;
+	padding-top: 225px;
+	padding-bottom: 225px;
+}
+
+.portfolio-jumbotron{
+	background: url(../images/IMG_1772.png);
+	background-size: cover;
+	padding-top: 225px;
+	padding-bottom: 225px;	
+}
+
+/*Description text box of jumbotron*/
 .jumbo-description{
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -32,6 +49,16 @@ html, body {
 	border-radius: 6px;
 }
 
+.contact-jumbo-description{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 35px;
+	background-color: #f8f5f0;
+	opacity: 0.9;
+	border-radius: 6px;
+}
+
+/*Modified font families*/
 body{
 	font-family: 'Raleway', sans-serif;
 }
@@ -50,6 +77,26 @@ h2, h3, h4, h5, h6{
 	max-width: 40px;
 }
 
+/*Portfolio items styling*/
+.portfolio_img{
+	max-width: 200px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.portfolio-item{
+	border:solid #3e3f3a 1px;
+	border-radius: 6px;
+	margin: 10px;
+	padding-top: 20px;
+}
+
+.portfolio_caption{
+	text-align: center;
+}
+
+/*Sticky footer setup*/
 .footer, .page-wrap:after {
 	height: 60px;
 }
@@ -58,6 +105,8 @@ h2, h3, h4, h5, h6{
 	background: #3e3f3a;
 	color: #fff;
 }
+
+/*Copyright text styling*/
 .copyright{
 	line-height: 60px;
 	text-align: center;

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- Adding this line messed up my website view on mobile devices -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<title>Contact Aisha Ahmad</title>
+	<!-- This html page uses Sandstone theme from Bootswatch -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Pacifico|Raleway" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+</head>
+<body>
+<!-- Pagewrap div for sticky footer -->
+	<div class="page-wrap">
+	<!-- Fixed navbar  header-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	    <!-- Button for toggled collapse for small screens. Targets element with my-navbar id. Uses Javascript for collapse and toggle -->
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-navbar">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+		<!-- Brand name -->
+	      <a class="navbar-brand" href="#">AISHA AHMAD</a>
+	    </div>
+		<!-- This navbar has id my-navbar -->
+	    <div class="collapse navbar-collapse" id="my-navbar">
+	      <ul class="nav navbar-nav">
+	        <li><a href="index.html">About</a></li>
+	        <li><a href="portfolio.html">Portfolio </a></li>
+	        <!-- This link points to the current open page -->
+	        <li class="active"><a href="contact.html">Contact <span class="sr-only">(current)</span></a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+		<!-- Contact page jumbotron -->
+	<div class="container-fluid">
+		<div class="jumbotron contact-jumbotron">
+			<div class="container">	
+				<div class="row">
+				<div class="col-md-7"></div>
+				<div class="col-md-5 col-xs-12">
+				<div class="row"><div class="col-md-12 col-xs-6 contact-jumbo-description">
+				  	<h1 class="my-name">Aisha Ahmad</h1>
+				  	<p>Use the form below to contact me. Business inquiries only.</p>
+					</div></div>
+				</div></div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Main content of this page set within a grid-->
+	<div class="container main">
+		<div class="row">
+			<div class="col-md-12 col-xs-12">
+				<h2>Contact Me</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-7 col-xs-7 contact-me">
+			<!-- Form for contacting author -->
+				<form class="form-horizontal contact-form">
+				  <fieldset>
+				  <!-- Name portion of form -->
+				  	<div class="form-group">
+				      <label for="inputName" class="col-md-2 col-xs-2 control-label">Name</label>
+				      <div class="col-md-10 col-xs-10">
+				        <input type="text" class="form-control" id="inputName" placeholder="Name">
+				      </div>
+				    </div>
+				  <!-- Email portion of form -->
+				    <div class="form-group">
+				      <label for="inputEmail" class="col-md-2 col-xs-2 control-label">Email</label>
+				      <div class="col-md-10 col-xs-10">
+				        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+				      </div>
+				    </div>
+					<!-- Message portion of form -->
+				    <div class="form-group">
+				      <label for="textArea" class="col-md-2 col-xs-2 control-label">Message</label>
+				      <div class="col-md-10 col-xs-10">
+				        <textarea class="form-control" rows="3" id="textArea"></textarea>
+				        <span class="help-block">Please include a message to the author.</span>
+				      </div>
+				    </div>
+				  </fieldset>
+				</form>
+			</div>
+
+			<!-- Empty col for layout purposes -->
+			<div class="col-md-2 col-xs-2"></div>
+			<!-- Connect with me nested grid -->
+			<div class="col-md-3 col-xs-3 connect-me">
+				<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12 col-xs-12">
+						<h2>Connect With Me</h2>
+					</div>
+				</div>
+					<div class="row">
+						<div class="col-md-4 col-xs-4"><a href="https://github.com/aishaprograms" target="_blank"><img src="assets/images/logo_github.png" alt="Github logo" class="connect_img"></a>
+						</div>
+						<div class="col-md-4 col-xs-4"><a href="https://www.linkedin.com/in/aisha-ahmad" target="_blank"><img alt="Linkedin logo" src="assets/images/logo_linkedin.png" class="connect_img"></a>
+						</div>
+						<div class="col-md-4 col-xs-4"><a href="http://stackoverflow.com/users/6397490/aisha" target="_blank"><img src="assets/images/logo_stackoverflow.png" alt="Stack overflow logo" class="connect_img"></a>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- Sticky footer -->
+	<footer class="footer">
+		<div class="container">
+			<p class= "copyright">&copy; Aisha Ahmad 2016</p>
+		</div>
+	</footer>
+</body>
+</html>
