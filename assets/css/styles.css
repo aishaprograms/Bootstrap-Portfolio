@@ -1,6 +1,64 @@
+* {
+	margin:0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.page-wrap {
+	min-height: 100%
+	margin-bottom: -60px;
+}
+
+.page-wrap:after{
+	content: "";
+	display: block;
+}
+
 .jumbotron{
 	background: url(../images/IMG_1518.png);
 	background-size: cover;
 	padding-top: 225px;
 	padding-bottom: 225px;
+}
+
+.jumbo-description{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 35px;
+	background-color: #f8f5f0;
+	opacity: 0.9;
+	border-radius: 6px;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	font-weight: bold;
+}
+
+h2, h3, h4, h5, h6{
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+}
+
+.connect_img{
+	max-width: 40px;
+}
+
+.footer, .page-wrap:after {
+	height: 60px;
+}
+
+.footer {
+	background: #3e3f3a;
+	color: #fff;
+}
+.copyright{
+	line-height: 60px;
+	text-align: center;
 }
