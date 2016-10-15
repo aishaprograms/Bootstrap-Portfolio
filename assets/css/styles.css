@@ -11,6 +11,7 @@ body {
 	padding-top: 75px;
 }
 
+/*Formatted for sticky footer*/
 .page-wrap {
 	min-height: 100%
 	margin-bottom: -60px;
@@ -25,6 +26,7 @@ body {
 .index-jumbotron{
 	background: url(../images/IMG_1518.jpg);
 	background-size: cover;
+	background-position: center;
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
@@ -32,6 +34,7 @@ body {
 .contact-jumbotron{
 	background: url(../images/IMG_8606.jpg);
 	background-size: cover;
+	background-position: center;
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
@@ -39,6 +42,7 @@ body {
 .portfolio-jumbotron{
 	background: url(../images/IMG_1772.jpg);
 	background-size: cover;
+	background-position: center;
 	padding-top: 200px;
 	padding-bottom: 200px;	
 }
